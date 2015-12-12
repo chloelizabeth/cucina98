@@ -124,6 +124,7 @@ section#intro {
   color: #777;
   font-size: 17px;
   margin-top: 0px; 
+
 }
 
 section#intro {
@@ -132,6 +133,7 @@ section#intro {
 
 section#intro p {
   font-family: "Alamain";
+  display: inline-block;
 }
 
 .center {
@@ -159,15 +161,19 @@ section#nav_bar ul.nav:after {
 .col_2_1 {
   width: 66.66%;
   padding-left: 55px;
+  padding-bottom: 39px;
+  
 }
 
 .col_2_2 {
   width: 33.33%;
+  float: left;
 }
 
 .col_2_3 {
   width: 33.33%;
   padding-top: 39px;
+  float: left;
 }
 
 .col_2_3 a:hover {
@@ -178,22 +184,31 @@ section#nav_bar ul.nav:after {
 
 section#gallery {
   padding-top: 35px;
+  height: 1000px;
 }
+
+
 
 #footer div {
   clear: both;
   width: 100%;
   display: block;
-  color: blue;
+  background-color: #fcf9f9;
   margin-top: 50px;
-  height: 100px;
+  height: 50px;
+  position: relative;
+  -webkit-box-shadow: inset 0 20px 20px -20px #ccc);
+    -moz-box-shadow: inset 0 20px 20px -20px #ccc;
+    box-shadow: inset 0 10px 10px -10px #ccc;
 }
 
 #footer p {
+  color: #777;
   padding-left: 68px;
   font-family: "Avenir", sans-serif;
-  font-size: 12px;
+  font-size: 11px;
   position: absolute;
+  padding-top: 10px;
 }
 
 
