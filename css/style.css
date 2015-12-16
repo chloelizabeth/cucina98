@@ -238,7 +238,6 @@ section#gallery {
 #footer div {
   clear: both;
   width: 100%;
-  display: block;
   background-color: #fcf9f9;
   margin-top: 50px;
   height: 50px;
@@ -255,6 +254,13 @@ section#gallery {
   font-size: 11px;
   position: absolute;
   padding-top: 10px;
+}
+
+.ceb {
+  float: right;
+  margin-top: 20px;
+  margin-right: 68px;
+  display: inline-block;
 }
 
 /*///////// SPACE STRIPS ///////*/
