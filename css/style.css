@@ -25,7 +25,9 @@ body {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
-
+#gallery img{
+  width: 100%;
+}
 
 .container {
   margin: 0 auto;
@@ -205,15 +207,23 @@ p {
 /*//// GLOBAL COL. STRUCTURE /////*/
 
 .col_2_1 {
-  width: 66.66%;
-  padding-left: 55px;
+  width: 59%;
+  margin-left: 46px;
   padding-bottom: 39px;
-  
+}
+
+.col_2_1 img{
+  margin-bottom: 16px;
 }
 
 .col_2_2 {
-  width: 33.33%;
+  margin-left: 22px;
+  width: 32%;
   float: left;
+}
+
+.col_2_2 img {
+  margin-bottom: 16px;
 }
 
 .col_2_3 {
@@ -222,16 +232,19 @@ p {
   float: left;
 }
 
-.col_2_3 a:hover {
+.col_2_2 a:hover {
   opacity: 0.5; 
   filter: alpha(opacity=50);
   cursor: hand;
 }
 
 section#gallery {
-  padding-top: 35px;
   height: 1000px;
 }
+
+.col_2_4 {
+  width: 158%;
+}  
 
 /*///////// FOOTER ///////*/
 
