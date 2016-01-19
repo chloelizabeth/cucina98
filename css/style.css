@@ -511,7 +511,7 @@ div.contact_text {
 }
 
 .mobilenav li a {
-  font-size: 150%;
+  font-size: 115%;
   color: #fff;
   text-decoration: none;
   font-weight: 300;
@@ -609,5 +609,26 @@ section#nav_bar ul.nav li {
     position: absolute;
     left: -64px;
   }
+}
+
+
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) { 
+
+
+.mobilenav li {
+  padding: 55px;
+}
+
+
+.mobilenav li a {
+  font-size: 550%;
+}
+
 }
 
