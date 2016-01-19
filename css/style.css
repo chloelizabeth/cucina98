@@ -32,6 +32,7 @@ body {
 .container {
   margin: 0 auto;
   max-width: 1181px;
+
 }
 
 .container:after {
@@ -487,8 +488,8 @@ div.contact_text {
   height: 32px;
   width: 32px;
   margin: 0px;
-  top: 0;
-  right: 0;
+  top: 4px;
+  right: 33px;
 }
 
 .mobilenav {
@@ -530,6 +531,21 @@ div.contact_text {
 
 
 
+section#shopsingle {
+  width: 1115px;
+  margin: 0 auto;
+}
+
+section#contact {
+  width: 1115px;
+  margin: 0 auto;
+}
+
+section#about {
+  width: 1115px;
+  margin: 0 auto;
+}
+
 section#gallery {
   width: 1115px;
   margin: 0 auto;
@@ -544,7 +560,7 @@ section#gallery {
 }
 
 .col_3_1 {
-  width: 49%;
+  width: 48%;
 }
 }
 
