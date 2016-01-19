@@ -44,6 +44,7 @@ body {
   text-align: right;
 }
 
+
 .col_1_3 {
   width: 33.33%;
   padding-left: 10px;
@@ -127,6 +128,14 @@ section#nav_bar #logo {
   margin: 0;
   padding-left: 10px;
 }
+
+#logo img {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 
 section#nav_bar #logo h1 {
   visibility: hidden;
@@ -291,14 +300,19 @@ section#gallery {
 }
 
 .col_3_1 {
-  width: 60%;
+  width: 50%;
   padding-left: 68px;
   padding-top: 20px;
 }
 
+.col_3_1 img {
+  width: 100%;
+}
+
 .col_3_2 {
-  width: 40%;
+  width: 50%;
   padding-right: 60px;
+  padding-left: 44px;
 }
 
 .col_3_2 p {
@@ -401,5 +415,39 @@ div.contact_text {
 
 .fa-facebook-square {
   padding-left: 10px;
+}
+
+
+/*/////// MEDIA QUERIES ///////*/
+
+@media only screen and (min-width: 1114px) {
+
+
+
+section#gallery {
+  width: 1115px;
+  margin: 0 auto;
+}
+.container {
+  width: 1115px;
+  margin: 0 auto;
+}
+
+.col_3_2 {
+  width: 50%;
+}
+
+.col_3_1 {
+  width: 49%;
+}
+}
+
+@media only screen and (max-width: 1080px) {
+
+section#nav_bar ul.nav li {
+  width: 41%;
+}
+
+
 }
 
