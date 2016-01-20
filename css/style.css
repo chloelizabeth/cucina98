@@ -7,11 +7,11 @@
 
     @font-face {
     font-family: "Alamain";
-    src: url(../fonts/alamain-webfont.eot);
-    src: url(../fonts/alamain-webfont.ttf);
-    src: url(../fonts/alamain-webfont.svg);
-    src: url(../fonts/alamain-webfont.woff);
-    src: url(../fonts/alamain-webfont.woff2);
+    src: url(../fonts/alamain-webfont.eot#) format("eot"),
+         url(../fonts/alamain-webfont.ttf) format ("truetype"),
+         url(../fonts/alamain-webfont.svg) format ("svg"),
+         url(../fonts/alamain-webfont.woff) format ("woff");
+
 
 }
 
