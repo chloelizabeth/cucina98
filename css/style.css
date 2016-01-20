@@ -2,11 +2,14 @@
     font-family: "Avenir";
     src: url(../fonts/Avenir.ttc);
     src: url(../fonts/Avenir.ttf);
+    src: url(../fonts/Avenir.eot);
 }
 
     @font-face {
     font-family: "Alamain";
-    src: url(../fonts/alamain1 copy2.ttc);
+    src: url(../fonts/Alamain.ttc);
+    src: url(../fonts/Alamain.ttf);
+    src: url(../fonts/Alamain.eot);
 
 }
 
