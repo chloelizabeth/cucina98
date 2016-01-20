@@ -1,11 +1,13 @@
 @font-face {
     font-family: "Avenir";
     src: url(../fonts/Avenir.ttc);
+    src: url(../fonts/Avenir.ttf);
 }
 
     @font-face {
     font-family: "Alamain";
     src: url(../fonts/alamain1 copy2.ttc);
+
 }
 
 /*///////// GLOBAL ///////*/
@@ -604,12 +606,14 @@ section#nav_bar ul.nav li {
 
   .col_3_2 {
     width: 104%;
-    padding-left: 78px;
-    padding-right: 46px;
+    padding-left: 68px;
+    padding-right: 68px;
+    padding-top: 20px;
   }
 
   .col_3_1 {
     padding-top: 0;
+    width: 66%;
   }
 
   #stripsmall {
@@ -619,6 +623,18 @@ section#nav_bar ul.nav li {
   .col_3_1 img {
     width: 147%;
   }
+
+  div.contact_text {
+    padding-top: 46px;
+  }
+
+  div.contact_text p {
+    font-size: 18px;
+  }
+
+  div.social_icons {
+    text-align: center;
+  }
 }
 
 @media only screen and (max-width: 850px) {
@@ -627,6 +643,93 @@ section#nav_bar ul.nav li {
     width: 344px;
   }
 }
+
+@media only screen and (max-width: 722px) {
+
+  #shopping img {
+    width: 290px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+
+
+  section#intro p {
+    font-size: 14px;
+  }
+
+  #shopping img {
+    width: 265px;
+  }
+}
+
+@media only screen and (max-width: 595px) {
+
+
+  section#intro p {
+    font-size: 14px;
+  }
+
+  #shopping img {
+    width: 244px;
+  }
+}
+
+@media only screen and (max-width: 535px) {
+
+
+  section#intro p {
+    font-size: 12px;
+  }
+
+  #shopping img {
+    width: 225px;
+  }
+}
+
+
+@media only screen and (max-width: 495px) {
+
+
+  section#intro p {
+    font-size: 12px;
+  }
+
+  #shopping img {
+    width: 205px;
+  }
+
+  #shopping p {
+    font-size: 12px;
+  }
+
+  .col_3_2 {
+    width: 113%;
+    padding-left: 44px;
+  }
+
+  .col_3_1 {
+    padding-left: 44px;
+    width: 66%;
+  }
+}
+
+@media only screen and (max-width: 445px) {
+
+
+  section#intro p {
+    font-size: 12px;
+  }
+
+  #shopping img {
+    width: 185px;
+  }
+
+  #shopping p {
+    font-size: 12px;
+  }
+}
+
 
 
 @media only screen and (min-width: 320px) and (max-width: 995px) {
@@ -651,9 +754,7 @@ section#nav_bar ul.nav li {
     width: 50%;
   }
 
-  #shopping img {
-    width: 344px;
-  }
+ 
 }
 
 
