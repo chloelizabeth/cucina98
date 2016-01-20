@@ -165,7 +165,7 @@ section#intro {
 }
 
 section#intro {
-  padding: 25px 0em;
+  padding: 25px 0px;
 }
 
 section#intro p {
@@ -222,7 +222,7 @@ p {
 
 .col_2_1 {
   width: 59%;
-  margin-left: 46px;
+  margin-left: 33px;
   padding-bottom: 39px;
 }
 
@@ -489,7 +489,7 @@ div.contact_text {
   width: 32px;
   margin: 0px;
   top: 4px;
-  right: 33px;
+  right: 54px;
 }
 
 .mobilenav {
@@ -583,6 +583,7 @@ section#nav_bar ul.nav li {
   padding-right: 0;
 }
 
+
 }
 
 @media only screen and (min-width: 995px) {
@@ -599,6 +600,34 @@ section#nav_bar ul.nav li {
 
 }
 
+@media only screen and (max-width: 888px) {
+
+  .col_3_2 {
+    width: 104%;
+    padding-left: 78px;
+    padding-right: 46px;
+  }
+
+  .col_3_1 {
+    padding-top: 0;
+  }
+
+  #stripsmall {
+    height: 36px;
+  }
+
+  .col_3_1 img {
+    width: 147%;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+
+  #shopping img {
+    width: 344px;
+  }
+}
+
 
 @media only screen and (min-width: 320px) and (max-width: 995px) {
   .nav {
@@ -607,9 +636,26 @@ section#nav_bar ul.nav li {
 
   #logo {
     position: absolute;
-    left: -64px;
+    left: -75px;
+  }
+
+  section#nav_bar #logo {
+    
+  }
+
+  section#nav_bar {
+    height: 42px;
+  }
+
+  #shopping .col_1_3 {
+    width: 50%;
+  }
+
+  #shopping img {
+    width: 344px;
   }
 }
+
 
 
 /* ----------- iPhone 4 and 4S ----------- */
@@ -627,8 +673,121 @@ section#nav_bar ul.nav li {
 
 
 .mobilenav li a {
-  font-size: 550%;
+  font-size: 350%;
 }
 
+.col_3_1 {
+  width: 82%;
+  margin-left: 46px;
+}
+
+div.contact_text {
+  padding-top: 40px;
+}
+
+.col_3_2 {
+  width: 100%;
+  padding-left: 108px;
+  padding-right: 60px;
+}
+
+#section .col_3_2 p {
+  font-size: 16px;
+}
+
+
+.col_3_2 p {
+  font-size: 13px;
+}
+
+.fa-2x {
+  font-size: 5em;
+}
+
+section#intro p {
+  font-size: 25px;
+}
+
+#shopping p {
+  font-size: 21px;
+}
+
+.top-menu {
+  top: 2px;
+  width: 54px;
+  height: 7px;
+  border-radius: 10px;
+}
+
+.mid-menu {
+  top: 21px;
+  width: 54px;
+  height: 7px;
+  border-radius: 10px;
+  
+}
+
+.bottom-menu {
+  top: 40px;
+  width: 54px;
+  height: 7px;
+  border-radius: 10px;
+}
+
+#stripsmall {
+  height: 55px;
+}
+
+section#nav_bar #logo {
+    background-size: 687px;
+  }
+
+  #logo {
+    position: absolute;
+    left: -162px;
+  }
+
+ section#nav_bar {
+    height: 61px;
+  } 
+
+  div.contact_text p {
+    font-size: 36px;
+  }
+
+  #shopping .col_1_3 {
+    width: 50%;
+  }
+
+  #shopping img {
+    width: 437px;
+  }
+
+  div.product_title {
+    margin-top: 50px;
+  }
+
+  div.dropdown {
+    font-size: 40px;
+    padding: 20px;
+    width: 258px;
+    border: 3px solid #ccc;
+  }
+
+  div.addto {
+    font-size: 40px;
+    padding: 20px;
+    width: 403px;
+    border: 3px solid #ccc;
+  }
+
+  div.addto:hover {
+  font-family: "Avenir";
+  background-color: #58b0c0;
+  color: white;
+  padding: 20px;
+  width: 403px;
+
+}
 }
 
