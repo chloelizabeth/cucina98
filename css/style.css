@@ -800,6 +800,7 @@ section#nav_bar ul.nav li {
 .L {
   font-size: 50px;
   font-weight: bold;
+  margin-right: 10px;
 }
 
 .col_3_1 {
@@ -889,7 +890,7 @@ section#nav_bar #logo {
   }
 
   #shopping p {
-    font-size: 32px;
+    font-size: 50px;
     font-weight: bold;
   }
 
