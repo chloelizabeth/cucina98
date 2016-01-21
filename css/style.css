@@ -798,8 +798,8 @@ section#nav_bar ul.nav li {
 }
 
 .L {
-  font-size: 30px;
-  font-style: bold;
+  font-size: 35px;
+  font-weight: bold;
 }
 
 .col_3_1 {
@@ -832,7 +832,7 @@ div.contact_text {
 }
 
 section#intro p {
-  font-size: 30px;
+  font-size: 45px;
 }
 
 #shopping p {
@@ -892,13 +892,13 @@ section#nav_bar #logo {
 
   #shopping p {
     font-size: 32px;
-    font-style: bold;
+    font-weight: bold;
   }
 
   div.product_title {
     margin-top: 50px;
     font-size: 30px;
-    font-style: bold;
+    font-weight: bold;
   }
 
   div.dropdown {
