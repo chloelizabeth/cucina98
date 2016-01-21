@@ -797,9 +797,13 @@ section#nav_bar ul.nav li {
   font-size: 350%;
 }
 
+.L {
+  font-size: 20px;
+}
+
 .col_3_1 {
-  width: 82%;
-  margin-left: 46px;
+  width: 85%;
+  margin-left: 30px;
 }
 
 div.contact_text {
@@ -808,8 +812,9 @@ div.contact_text {
 
 .col_3_2 {
   width: 100%;
-  padding-left: 108px;
-  padding-right: 60px;
+  padding-left: 88px;
+  padding-right: 40px;
+  margin-top: 25px;
 }
 
 #section .col_3_2 p {
@@ -818,7 +823,7 @@ div.contact_text {
 
 
 .col_3_2 p {
-  font-size: 13px;
+  font-size: 16px;
 }
 
 .fa-2x {
@@ -826,7 +831,7 @@ div.contact_text {
 }
 
 section#intro p {
-  font-size: 25px;
+  font-size: 30px;
 }
 
 #shopping p {
@@ -884,6 +889,10 @@ section#nav_bar #logo {
     width: 437px;
   }
 
+  #shopping p {
+    font-size: 32px;
+  }
+
   div.product_title {
     margin-top: 50px;
   }
@@ -910,5 +919,11 @@ section#nav_bar #logo {
   width: 403px;
 
 }
+
+
+.fa-facebook-square {
+  padding-left: 45px;
+}
+
 }
 
