@@ -285,14 +285,6 @@ section#gallery {
 
 /*///////// FOOTER ///////*/
 
-#footer {
-   position:absolute;
-   bottom:0;
-   width:100%;
-   height:50px;   /* Height of the footer */
-   background:#fcf9f9;
-}
-
 #footer div {
   clear: both;
   width: 100%;
@@ -328,6 +320,8 @@ section#gallery {
   width: 100%;
   height: 150px;
 }
+
+
 
 #stripsmall {
   clear: both;
@@ -555,8 +549,6 @@ div.contact_text {
 
 
 
-
-
 /*/////// MEDIA QUERIES ///////*/
 
 @media only screen and (min-width: 1114px) {
@@ -665,6 +657,15 @@ section#nav_bar ul.nav li {
   div.social_icons {
     text-align: center;
   }
+
+  .col_2_1 {
+    width: 60%;
+    margin-left: 53px;
+  }
+
+  .col_2_2 {
+    width: 29%;
+  }
 }
 
 @media only screen and (max-width: 850px) {
@@ -772,9 +773,6 @@ section#nav_bar ul.nav li {
     left: -75px;
   }
 
-  section#nav_bar #logo {
-    
-  }
 
   section#nav_bar {
     height: 42px;
@@ -978,8 +976,8 @@ section#intro p {
   }
 
   .L {
-    font-size: 25px;
-    margin-right: 10px;
+    font-size: 28px;
+    margin-right: 7px;
     font-weight: bold;
   }
 
