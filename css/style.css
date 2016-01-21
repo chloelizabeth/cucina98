@@ -13,7 +13,19 @@
          url('../fonts/alamain-webfont.svg') format ('svg'),
          url('../fonts/alamain-webfont.woff') format ('woff');
          font-weight: normal;
-         font-style: normal;
+         font-style: normal; 
+}
+
+
+    @font-face {
+    font-family: "Savoye";
+    src: url('../fonts/SavoyeLetPlain.eot');
+    src: url('../fonts/SavoyeLetPlain.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/SavoyeLetPlain.ttf') format ('truetype'),
+         url('../fonts/SavoyeLetPlain.svg') format ('svg'),
+         url('../fonts/SavoyeLetPlain.woff') format ('woff');
+         font-weight: normal;
+         font-style: normal;     
 
 
 }
@@ -179,7 +191,7 @@ section#intro {
 }
 
 section#intro p {
-  font-family: "Alamain";
+  font-family: "Alamain", "Savoye", cursive;
   display: inline-block;
    animation: fadein 2s;
     -moz-animation: fadein 2s; /* Firefox */
@@ -339,7 +351,7 @@ section#gallery {
 }
 
 .L {
-  font-family: "Alamain";
+  font-family: "Alamain", "Savoye", cursive;
 }
 
 section#about {
@@ -350,7 +362,7 @@ section#about {
 
 
 #shopping p {
-  font-family: "Alamain", sans-serif;
+  font-family: "Alamain", "Savoye", cursive;
   text-transform: lowercase;
   letter-spacing: 2px;
   text-align: center;
@@ -374,7 +386,7 @@ section#about {
 
 div.product_title {
   margin-top: 20px;
-  font-family: "Alamain";
+  font-family: "Alamain", "Savoye", cursive;
 }
 
 div.dropdown {
