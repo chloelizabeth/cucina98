@@ -798,7 +798,7 @@ section#nav_bar ul.nav li {
 }
 
 .L {
-  font-size: 35px;
+  font-size: 50px;
   font-weight: bold;
 }
 
@@ -818,13 +818,11 @@ div.contact_text {
   margin-top: 25px;
 }
 
-#section .col_3_2 p {
-  font-size: 16px;
-}
+
 
 
 .col_3_2 p {
-  font-size: 20px;
+  font-size: 23px;
 }
 
 .fa-2x {
@@ -897,7 +895,7 @@ section#nav_bar #logo {
 
   div.product_title {
     margin-top: 50px;
-    font-size: 30px;
+    font-size: 50px;
     font-weight: bold;
   }
 
