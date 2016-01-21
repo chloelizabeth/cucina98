@@ -985,17 +985,14 @@ section#intro p {
   font-size: 38px;
 }
 
-#shopping p {
-  font-size: 20px;
-}
 
  #shopping p {
-    font-size: 25px;
+    font-size: 38px;
     font-weight: bold;
   }
 
   div.product_title {
-    font-size: 35px;
+    font-size: 26px;
     font-weight: bold;
   }
 
@@ -1011,8 +1008,8 @@ section#intro p {
 
   #shopping img {
     width: 450px;
-    margin-left: 25px;
-    margin-right: 25px;
+    margin-left: 43px;
+    margin-right: 43px;
   }
 
 
