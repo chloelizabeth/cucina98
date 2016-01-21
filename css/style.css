@@ -928,3 +928,32 @@ section#nav_bar #logo {
 
 }
 
+
+
+/* ----------- iPad 1 and 2 ----------- */
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+.mobilenav li {
+  padding: 22px;
+}
+
+.mobilenav li a {
+  font-size: 255%;
+}
+
+section#intro p {
+  font-size: 38px;
+}
+
+#shopping p {
+  font-size: 20px;
+}
+
+
+}
+
+
