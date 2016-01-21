@@ -285,6 +285,14 @@ section#gallery {
 
 /*///////// FOOTER ///////*/
 
+#footer {
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:50px;   /* Height of the footer */
+   background:#fcf9f9;
+}
+
 #footer div {
   clear: both;
   width: 100%;
@@ -543,6 +551,8 @@ div.contact_text {
 .mobilenav li:first-child {
   margin-top: 60px;
 }
+
+
 
 
 
@@ -952,6 +962,26 @@ section#intro p {
 #shopping p {
   font-size: 20px;
 }
+
+ #shopping p {
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  div.product_title {
+    font-size: 26px;
+    font-weight: bold;
+  }
+
+  .col_3_2 p {
+    font-size: 18px;
+  }
+
+  .L {
+    font-size: 25px;
+    margin-right: 10px;
+    font-weight: bold;
+  }
 
 
 }
